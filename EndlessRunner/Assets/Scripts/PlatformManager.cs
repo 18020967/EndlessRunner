@@ -2,15 +2,11 @@
 
 public class PlatformManager : MonoBehaviour
 {
-
     [SerializeField]
     private GameObject[] Platforms;
     float PlatLength = 6;
-
-	
-
-	// Start is called before the first frame update
-	void Start()
+    // Start is called before the first frame update
+    void Start()
     {
         for (int i = 1; i < 40; i++)
         {
@@ -21,7 +17,7 @@ public class PlatformManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
 
     int randomNum;
