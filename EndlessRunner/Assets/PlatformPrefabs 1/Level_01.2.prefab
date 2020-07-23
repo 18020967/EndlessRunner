@@ -809,12 +809,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4776778948257007409}
-  - component: {fileID: -3357250582922410530}
   - component: {fileID: -1694853850684174257}
   - component: {fileID: -5588230154562083082}
   m_Layer: 0
   m_Name: Level_01.2
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -841,18 +840,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-3357250582922410530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8363711165288330530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66ffa34b57231304a889fa039fb477e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &-1694853850684174257
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -866,7 +853,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &-5588230154562083082
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -898,7 +885,7 @@ PrefabInstance:
     - target: {fileID: 5077470059639168683, guid: db8deb352a18eca4aa3c044ba94880ee,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7325974
+      value: 1.92
       objectReference: {fileID: 0}
     - target: {fileID: 5077470059639168683, guid: db8deb352a18eca4aa3c044ba94880ee,
         type: 3}
